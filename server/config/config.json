@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "omtec12#",
+    "database": "orm_demo",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "192.168.0.11",
+    "dialect": "mariadb"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "192.168.0.11",
+    "dialect": "mariadb"
+  }
+}
